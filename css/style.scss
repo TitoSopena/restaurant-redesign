@@ -1,0 +1,137 @@
+@import 'reset';
+@import 'responsive-nav';
+@import 'mixin';
+
+
+
+// *** Global *** //
+
+body {
+	font-family: helvetica;
+	background: #E2CCB7;
+	color: #552400;
+
+	font-family: ‘Courier New’, Courier, monospace;
+
+
+}
+header {
+	background: #552400;
+	font-family: Impact, arial, helvetica, sans-serif;
+	color: #E2CCB7;
+
+
+}
+.title {
+
+	font-size: 2.5em;
+	text-align: center;
+	}
+
+
+// ****** Drink Menu ****** //
+
+.drink-container {
+	text-align: center;
+}
+.main-container {
+	margin-left: 10px;
+
+}
+.main-container h1, h2{
+	margin-top: 15px;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+
+}
+
+.drink-wrapper {
+	margin-top: 25px;
+	line-height: 2em;
+}
+
+.menu-item{
+	float: left;
+	margin-left: 10px;
+}
+
+.menu-price {
+	clear:both;
+	margin-left: 10px;
+	font-size: .5em;
+}
+
+.hr {
+	padding: 50px;
+}
+.smoothies {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.menu-price p {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+
+}
+
+
+// ************** //
+
+// *** HOME PAGE *** //
+
+.hero1 {
+
+	overflow: hidden;
+	background-image: url(../img/dj.jpg);
+	width: 50%;
+
+}
+.slogan {
+	font-size: 2em;
+	margin-bottom: 30px;
+	font-family: ‘Courier New’;
+
+}
+
+aside {
+
+	text-align:center;
+}
+
+.map {
+
+ 	width: 65%;
+ 	float: right;
+ 	margin-right: 20%;
+ }
+
+.left-container {
+
+	margin-top: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+// ******* //
+
+
+// *** About *** //
+.hero2 {
+	margin-top: 30px;
+	width: 50%;
+	float: left;
+}
+
+// *** Footer *** //
+footer {
+	float: right;
+	margin-top: 35px;
+	margin-right: 39%;
+}
+
+
+
+
+
+
