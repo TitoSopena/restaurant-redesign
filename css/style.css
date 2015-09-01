@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -60,12 +59,11 @@ table {
 
 .nav-collapse li {
   margin-bottom: .5em;
-  float: right;
-  margin-right: 11%;
-  text-align: center; }
+  margin-right: 9%;
+  float: right; }
 
 .nav-collapse a {
-  color: #E2CCB7;
+  color: #4A2B13;
   text-decoration: none; }
 
 .js .nav-collapse {
@@ -87,14 +85,14 @@ table {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  color: #E2CCB7;
+  color: #4A2B13;
   text-align: center;
   padding: 20px 2%;
   display: block;
   text-decoration: none; }
 
 .nav-toggle span {
-  color: #552400;
+  color: #4A2B13;
   font-size: 1.15em; }
 
 @media screen and (min-width: 40em) {
@@ -176,22 +174,81 @@ table {
   background: orange; }
 
 body {
-  font-family: helvetica;
-  background: #E2CCB7;
-  color: #552400;
-  font-family: ‘Courier New’, Courier, monospace; }
+  font-family: "Open Sans", sans-serif;
+  line-height: 2em;
+  color: #68848B;
+  font-size: .8em;
+  font-weight: 800; }
 
 header {
-  background: #552400;
-  font-family: Impact, arial, helvetica, sans-serif;
-  color: #E2CCB7; }
+  font-family: "Montserrat", sans-serif; }
 
-.title {
-  font-size: 2.5em;
-  text-align: center; }
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #68848B; }
+
+footer {
+  background: #FFA849;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-size: .76em;
+  padding: 5px 0;
+  min-width: 600px; }
+  footer .facebook, footer .twitter, footer .email {
+    width: 3%;
+    margin-left: .6%;
+    text-align: center;
+    display: inline-block; }
+  footer p {
+    margin-left: 5%;
+    margin-bottom: 5px;
+    display: inline-block; }
+
+.logo {
+  max-width: 32%;
+  margin-left: 33.5%;
+  margin-top: 10%; }
+
+.hero {
+  width: 97%; }
+
+.pics {
+  width: 50%; }
+  .pics .hours, .pics .menu, .pics .school {
+    float: left;
+    margin-left: 50%;
+    padding: 45px 0; }
+  .pics .school {
+    margin-bottom: 30px; }
+
+.hero2 {
+  width: 100%;
+  padding: 50px 0 50px; }
+
+.shop {
+  width: 100%;
+  padding: 50px 0 50px; }
+
+.about-container {
+  width: 60%;
+  margin-left: 20%; }
+
+.about-container h2 {
+  margin-bottom: 20px; }
+
+.about-container p {
+  margin-bottom: 100px; }
 
 .drink-container {
   text-align: center; }
+  .drink-container h1 {
+    font-size: 1.5em;
+    text-align: center; }
 
 .main-container {
   margin-left: 10px; }
@@ -202,20 +259,19 @@ header {
   font-family: arial, helvetica, sans-serif; }
 
 .drink-wrapper {
+  text-align: center;
   margin-top: 25px;
   line-height: 2em; }
+  .drink-wrapper h3 {
+    text-align: center; }
 
 .menu-item {
-  float: left;
   margin-left: 10px; }
 
 .menu-price {
   clear: both;
   margin-left: 10px;
   font-size: .5em; }
-
-.hr {
-  padding: 50px; }
 
 .smoothies {
   text-align: center;
@@ -226,37 +282,38 @@ header {
   font-size: 1.5em;
   margin-bottom: 10px; }
 
-.hero1 {
-  overflow: hidden;
-  background-image: url(../img/dj.jpg);
-  width: 50%; }
+hr {
+  border: 0;
+  color: #410000;
+  background-color: #410000;
+  height: 1px;
+  width: 60%; }
 
-.slogan {
-  font-size: 2em;
-  margin-bottom: 30px;
-  font-family: ‘Courier New’; }
+@media screen and (min-width: 500px) {
+  .main-container {
+    max-width: 1300px; }
 
-aside {
-  text-align: center; }
+  header {
+    text-align: center; }
 
-.map {
-  width: 65%;
-  float: right;
-  margin-right: 20%; }
+  .logo {
+    width: 10%;
+    display: inline-block; } }
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 12%;
+    margin-right: 3%; }
 
-.left-container {
-  margin-top: 5px;
-  margin-left: 5%;
-  margin-right: 5%; }
+  header {
+    margin-right: 25%;
+    margin-bottom: 30px; }
 
-.hero2 {
-  margin-top: 30px;
-  width: 50%;
-  float: left; }
+  .hero {
+    width: 100%;
+    height: 500px; }
 
-footer {
-  float: right;
-  margin-top: 35px;
-  margin-right: 39%; }
+  .pics {
+    width: 100%;
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */

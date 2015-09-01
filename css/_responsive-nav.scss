@@ -1,3 +1,4 @@
+
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
   padding-top: 1.5em;
@@ -13,16 +14,15 @@
 }
 
 .nav-collapse li {
-
   margin-bottom: .5em;
+  margin-right: 9%;
   float: right;
-  margin-right: 11%;
-  text-align: center;
+
 
 }
 
 .nav-collapse a {
-  color: #E2CCB7;
+  color: #4A2B13;
   text-decoration: none;
 
 
@@ -49,7 +49,7 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  color: #E2CCB7;
+  color: #4A2B13;
   text-align: center;
   padding: 20px 2%;
   display: block;
@@ -57,7 +57,7 @@
 }
 
 .nav-toggle span {
-  color: #552400;
+  color: #4A2B13;
   font-size: 1.15em;
 }
 
@@ -71,5 +71,6 @@
   .nav-toggle {
     display: none;
   }
+
 }
 
