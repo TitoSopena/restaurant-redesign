@@ -10,22 +10,22 @@
   display: block;
   list-style: none;
   overflow: hidden;
+  text-align: center;
 
 }
 
 .nav-collapse li {
   margin-bottom: .5em;
-  margin-right: 9%;
+  margin-right: 14%;
+  margin-bottom: 25px;
   float: right;
 
 
 }
 
 .nav-collapse a {
-  color: #4A2B13;
+  color: #FFA849;
   text-decoration: none;
-
-
 }
 
 .js .nav-collapse {
@@ -49,7 +49,7 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  color: #4A2B13;
+  color:  #FFA849;
   text-align: center;
   padding: 20px 2%;
   display: block;
@@ -72,5 +72,15 @@
     display: none;
   }
 
-}
 
+}
+@media screen and (min-width: 1000px){
+
+
+.nav-collapse li {
+ 
+  margin-right: 21.5%;
+
+
+}
+}

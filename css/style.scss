@@ -9,6 +9,7 @@
 $font-body: 'Open Sans', sans-serif;
 $font-header: 'Montserrat', sans-serif;
 $logo-font: 'Almendra Display', cursive;
+
 // ** Color ** //
 
 body {
@@ -17,17 +18,33 @@ body {
 	color: #68848B;
 	font-size: .8em;
 	font-weight: 800;
-	
+
 }
 header {
-	
+	background: #410000;
 	font-family: $font-header;
+}
+header nav {
+	// border-top: 1px solid #4A2B13;
+	// border-bottom: 1px solid #4A2B13;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+
+}
+h1 {
+	color: #410000;
 }
 h2 {
 	font-family: $font-header;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 700;
 	color: #68848B;
+}
+h3 {
+	color: #B0DB72;
+	font-weight: 800;
+	font-size: 1.5em;
 }
 footer {
 	background: #FFA849;
@@ -36,16 +53,16 @@ footer {
     bottom: 0;
     left: 0;
     color: #fff;
-    font-size: .76em;
+    font-size: 1em;
     padding: 5px 0;
-    min-width: 600px;
+   
 
     .facebook, .twitter, .email{
 
- 		width: 3%;
- 		margin-left: .6%;
- 		text-align: center;
- 		display: inline-block;
+ 		width: 5%;
+ 		margin-left: 1%;
+ 		float: left;
+ 		
     }
 
 
@@ -69,9 +86,35 @@ footer {
 
 .hero {
 
-	width: 97%;
+	width: 100%;
 }
+.header-text {
+	font-size: 1.5em;
+	text-align: center;
 
+}
+.dj-header {
+	text-align: center;
+	font-family: $font-header;
+	font-size: 2em;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+.intro {
+	width: 60%;
+	margin-left: 20%;
+	font-weight: 100;
+	line-height: 2.2em;
+
+
+}
+.hours {
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 30px;
+}
 
 .pics {
 	width: 50%;
@@ -96,6 +139,7 @@ footer {
 	width: 100%;
 	padding: 50px 0 50px;
 }
+
 .shop {
 
 	width: 100%;
@@ -108,9 +152,17 @@ footer {
 
 }
 
-.about-container h2 {
+.about-container h1 {
 
 	margin-bottom: 20px;
+	font-size: 2.6em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 100%;
+	font-family: $font-header;
+	color: #410000;
 
 }
 .about-container p {
@@ -123,23 +175,29 @@ footer {
 
 // ****** Drink Menu ****** //
 
-.drink-container {
-	text-align: center;
 
-	h1 {
-		font-size: 1.5em;
-		text-align: center;
-	}
-}
-.main-container {
-	margin-left: 10px;
-
-}
-.main-container h1, h2{
+.drink-container{
 	margin-top: 15px;
 	text-align: center;
-	font-family: arial, helvetica, sans-serif;
 
+	
+	h1 {
+	font-size: 2.6em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 100%;
+	font-family: $font-header;
+	color: #410000;
+	}
+
+	 h2 {
+	 	margin-top: 15px;
+	 	font-family: $font-header;
+	 	font-size: 2em;
+
+	 }
 }
 
 .drink-wrapper {
@@ -150,6 +208,7 @@ footer {
 
 	h3 {
 		text-align: center;
+		font-weight: bold;
 
 	}
 }
@@ -157,12 +216,20 @@ footer {
 .menu-item{
 	
 	margin-left: 10px;
+	margin-top: 30px;
+
+
+
+}
+.menu-item-coffee {
+	margin-right: 2%;
 }
 
 .menu-price {
 	clear:both;
 	margin-left: 10px;
-	font-size: .5em;
+	margin-bottom: 50px;
+	font-size: 1em;
 }
 
 
@@ -171,19 +238,18 @@ footer {
 	margin-bottom: 20px;
 }
 
-.menu-price p {
+.menu-price-smoothies p {
 	text-align: center;
-	font-size: 1.5em;
-	margin-bottom: 10px;
+	font-size: 1em;
+	margin-top: 40px;
 
 }
 hr {
-
 border: 0;
 color: #410000;
 background-color: #410000;
 height: 1px;
-width: 60%;
+width: 45%;
 
 }
 
@@ -192,47 +258,162 @@ width: 60%;
 
 
 // ************** //
-@media screen and (min-width: 500px){
+@media screen and (min-width: 405px){
 
 	.main-container {
 		max-width: 1300px;
 	}
-	header {
-		text-align: center;
 
+	header ul {
+		text-align: center;
 	}
+
 	.logo {
 		width: 10%;
-		display: inline-block;
+		float: right;
+		display: none;
 	}
+	.pics {
+		display: inline;
+		text-align: center;
+	}
+	footer{
+		width: 100%;
+
+
+    .facebook, .twitter, .email{
+
+ 		width: 3%;
+ 		margin-left: 1%;
+ 		float: left;
+ 		
+   	 }
+	}
+
 
 }
 @media screen and (min-width: 1000px) {
 
-
+	
+	.main-container {
+		width: 1400px;
+	}
 
 	.logo {
 		
 		width: 12%;
-		margin-right: 3%;
+		margin: 0 auto;
+		display: block;
+		position: relative;
+		top: 10px;
+		float: none;
+		
 
 	}
-	header {
-		
-		margin-right: 25%;
-		margin-bottom: 30px;
-	}
+
 
 	.hero {
-		width: 100%;
+
+		width: 80%;
 		height: 500px;
+		margin-left: 10%;
 	
 	}
-	.pics {
-		width: 100%;
-		float: left;
+	.intro {
+		width: 60%;
+		margin-right: 7%;
 	}
 
+
+
+
+	footer {
+    width: 100%;
+    font-size: .76em;
+    padding: 5px 0;
+    min-width: 600px;
+
+    .facebook, .twitter, .email{
+
+ 		width: 3%;
+ 		height: 25px;
+ 		margin-left: 2%;
+ 		margin-top: 10px;
+ 		display: inline-block;
+
+    }
+
+
+    p {
+    	float: right;
+    	margin-right: 3%;
+    	margin-top: 10px;
+    	font-size: 1.5em;
+    
+    }
+	}
+
+	.pics {
+		width: 100%;
+	
+	.hours, .menu, .school {
+		float: left;
+		height: 180px;
+		margin-left: 20%;
+		margin-top: 25px;
+		padding: 45px 0 65px;
+
+	}
+	.school {
+		margin-bottom: 30px;
+	}
+	}
+
+	.drink-container {
+	width: 100%;
+    z-index: 10;
+    position: relative;
+    color: #68848B;
+    margin-top: 40px;
+	}
+
+	.drink-wrapper-coffee {
+	width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+	}
+	.menu-item {
+	width: 100%;
+    border-bottom: #FFA849 dashed 1px;
+    padding: 15px 0 15px 0;
+    text-align: left;
+	}
+	.menu-item-title {
+    color: #4e7987;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    line-height: 100%;
+    width: 90%;
+	}
+	
+	.menu-price {
+	color: #4A2B13;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    margin-left: 20px;
+	}
+	.teas {
+		margin-left: 25%;
+	}
+	.menu-price-smoothies {
+		padding-bottom: 80px;
+	}
 }
 
 
