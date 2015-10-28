@@ -50,19 +50,20 @@ table {
   padding-top: 1.5em; }
 
 .nav-collapse ul {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   display: block;
   list-style: none;
-  overflow: hidden;
-  text-align: center; }
+  overflow: hidden; }
 
 .nav-collapse li {
-  margin-bottom: .5em;
-  margin-right: 14%;
+  margin-left: 20%;
+  margin-top: 50px;
   margin-bottom: 25px;
-  float: right; }
+  display: block;
+  text-align: center;
+  margin: 0 auto; }
 
 .nav-collapse a {
   color: #FFA849;
@@ -107,8 +108,13 @@ table {
   .nav-toggle {
     display: none; } }
 @media screen and (min-width: 1000px) {
+  .nav-collapse ul {
+    margin-top: 100px;
+    display: inline-block; }
+
   .nav-collapse li {
-    margin-right: 21.5%; } }
+    display: inline-block;
+    margin-right: 20%; } }
 .container {
   width: 100%;
   background: #fdf3e7;
@@ -183,15 +189,21 @@ body {
   line-height: 2em;
   color: #68848B;
   font-size: .8em;
-  font-weight: 800; }
+  font-weight: 800;
+  font-size: 1em; }
 
 header {
-  background: #410000;
   font-family: "Montserrat", sans-serif; }
 
 header nav {
   margin-bottom: 50px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
+
+.header-intro {
+  background: #FFA849;
+  color: #410000;
+  text-align: center; }
 
 h1 {
   color: #410000; }
@@ -213,17 +225,17 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  color: #fff;
-  font-size: 1em;
-  padding: 5px 0; }
+  color: #fff; }
   footer .facebook, footer .twitter, footer .email {
     width: 5%;
     margin-left: 1%;
-    float: left; }
+    float: left;
+    margin-top: 5px; }
   footer p {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom: 5px;
-    display: inline-block; }
+    display: inline;
+    font-size: .8em; }
 
 .logo {
   max-width: 32%;
@@ -245,25 +257,26 @@ footer {
   margin-top: 30px; }
 
 .intro {
-  width: 60%;
+  width: 50%;
   margin-left: 20%;
   font-weight: 100;
-  line-height: 2.2em; }
+  line-height: 2.2em;
+  float: none; }
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px; }
 
 .hours {
-  text-align: center;
   width: 60%;
   margin-left: 20%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-weight: bold;
+  margin-right: 10%; }
 
-.pics {
-  width: 50%; }
-  .pics .hours, .pics .menu, .pics .school {
-    float: left;
-    margin-left: 50%;
-    padding: 45px 0; }
-  .pics .school {
-    margin-bottom: 30px; }
+.hours {
+  padding: 10px 0 60px; }
 
 .hero2 {
   width: 100%;
@@ -307,6 +320,9 @@ footer {
     margin-top: 15px;
     font-family: "Montserrat", sans-serif;
     font-size: 2em; }
+
+.coffee-two {
+  width: 100%; }
 
 .drink-wrapper {
   text-align: center;
@@ -369,30 +385,36 @@ hr {
       float: left; } }
 @media screen and (min-width: 1000px) {
   .main-container {
-    width: 1400px; }
+    width: 1450px; }
 
   .logo {
     width: 12%;
     margin: 0 auto;
     display: block;
-    position: relative;
-    top: 10px;
-    float: none; }
+    float: left;
+    padding: 50px; }
 
   .hero {
-    width: 80%;
     height: 500px;
-    margin-left: 10%; }
+    z-index: 0; }
 
   .intro {
-    width: 60%;
-    margin-right: 7%; }
+    width: 40%;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 5%; }
+
+  iframe {
+    margin-left: 5%;
+    margin-bottom: 150px; }
+
+  .hours {
+    margin-left: 40%; }
 
   footer {
     width: 100%;
     font-size: .76em;
-    padding: 5px 0;
-    min-width: 600px; }
+    min-width: 500px; }
     footer .facebook, footer .twitter, footer .email {
       width: 3%;
       height: 25px;
@@ -402,8 +424,7 @@ hr {
     footer p {
       float: right;
       margin-right: 3%;
-      margin-top: 10px;
-      font-size: 1.5em; }
+      margin-top: 10px; }
 
   .pics {
     width: 100%; }
@@ -422,6 +443,9 @@ hr {
     position: relative;
     color: #68848B;
     margin-top: 40px; }
+
+  .coffee-two {
+    height: 450px; }
 
   .drink-wrapper-coffee {
     width: 100%;
@@ -448,13 +472,14 @@ hr {
   .menu-price {
     color: #4A2B13;
     float: right;
-    display: inline-block;
+    display: block;
     position: relative;
     top: -20px;
     margin-left: 20px; }
 
   .teas {
-    margin-left: 25%; }
+    position: relative;
+    left: 15%; }
 
   .menu-price-smoothies {
     padding-bottom: 80px; } }
