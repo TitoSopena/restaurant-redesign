@@ -134,7 +134,9 @@ iframe {
 }
 
 
-
+.kern {
+	letter-spacing: -.2em;
+}
 
 // ****** About Us ***** //
 .hero2 {
@@ -193,15 +195,26 @@ iframe {
 	line-height: 100%;
 	font-family: $font-header;
 	color: #410000;
+	padding-top: 16px;
 	}
 
 	 h2 {
-	 	margin-top: 15px;
+	 	margin-top: 24px;
 	 	font-family: $font-header;
 	 	font-size: 2em;
 
 	 }
 }
+
+.drinks {
+	margin-top: 24px;
+}
+
+.teas {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
 .coffee-two  {
 	width: 100%;
 }
@@ -258,10 +271,12 @@ width: 45%;
 
 }
 
-
-
-
-
+.bold{
+	font-weight: 300;
+}
+.bolds {
+	font-weight: 300;
+}
 // ************** //
 @media screen and (min-width: 405px){
 
@@ -310,6 +325,7 @@ width: 45%;
 		display: block;
 		float: left;
 		padding: 50px;
+		margin-left: 1%;
 	}
 
 	.hero {
@@ -333,9 +349,7 @@ iframe {
 	margin-bottom: 40px;
 	margin-right: 5%;
 }
-header {
-	background-color: #FFA849;
-}
+
 
 // Footer//
 
@@ -391,9 +405,7 @@ header {
     margin-top: 40px;
 	}
 
-	.coffee-two {
-		height: 450px;
-	}
+
 
 	.drink-wrapper-coffee {
 		width: 100%;
@@ -426,6 +438,7 @@ header {
     position: relative;
     top: -20px;
     margin-left: 20px;
+		font-weight: 900;
 
 
 	}

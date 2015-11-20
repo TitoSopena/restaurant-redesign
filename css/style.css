@@ -47,7 +47,8 @@ table {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  padding-top: 1.5em; }
+  padding-top: 2em;
+  width: 500px; }
 
 .nav-collapse ul {
   margin: 0 auto;
@@ -276,6 +277,9 @@ iframe {
 .hours {
   padding: 10px 0 60px; }
 
+.kern {
+  letter-spacing: -.2em; }
+
 .hero2 {
   width: 100%;
   padding: 50px 0 50px; }
@@ -313,11 +317,19 @@ iframe {
     text-align: center;
     line-height: 100%;
     font-family: "Montserrat", sans-serif;
-    color: #410000; }
+    color: #410000;
+    padding-top: 16px; }
   .drink-container h2 {
-    margin-top: 15px;
+    margin-top: 24px;
     font-family: "Montserrat", sans-serif;
     font-size: 2em; }
+
+.drinks {
+  margin-top: 24px; }
+
+.teas {
+  margin-top: 24px;
+  margin-bottom: 24px; }
 
 .coffee-two {
   width: 100%; }
@@ -359,6 +371,12 @@ hr {
   height: 1px;
   width: 45%; }
 
+.bold {
+  font-weight: 300; }
+
+.bolds {
+  font-weight: 300; }
+
 @media screen and (min-width: 405px) {
   .main-container {
     max-width: 1300px; }
@@ -390,7 +408,8 @@ hr {
     margin: 0 auto;
     display: block;
     float: left;
-    padding: 50px; }
+    padding: 50px;
+    margin-left: 1%; }
 
   .hero {
     height: 500px;
@@ -408,9 +427,6 @@ hr {
     float: left;
     margin-bottom: 40px;
     margin-right: 5%; }
-
-  header {
-    background-color: #FFA849; }
 
   footer {
     width: 100%;
@@ -445,9 +461,6 @@ hr {
     color: #68848B;
     margin-top: 40px; }
 
-  .coffee-two {
-    height: 450px; }
-
   .drink-wrapper-coffee {
     width: 100%;
     max-width: 900px;
@@ -476,7 +489,8 @@ hr {
     display: block;
     position: relative;
     top: -20px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-weight: 900; }
 
   .teas {
     position: relative;

@@ -1,7 +1,8 @@
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  padding-top: 1.5em;
+  padding-top: 2em;
+  width: 500px;
 }
 .nav-collapse ul {
   margin: 0 auto;
@@ -11,15 +12,12 @@
   list-style: none;
   overflow: hidden;
 
-
-
 }
 
 .nav-collapse li {
   margin-left: 20%;
   margin-top: 50px;
   margin-bottom: 25px;
-
   display: block;
   text-align: center;
   margin: 0 auto;
