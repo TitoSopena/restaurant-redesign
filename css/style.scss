@@ -113,7 +113,7 @@ footer {
 }
 iframe {
 	display: block;
-	margin: 0 auto;
+	// margin: 0 auto;
 	margin-top: 10px;
 }
 .hours {
@@ -303,7 +303,7 @@ width: 45%;
 	.main-container {
 		width: 1450px;
 	}
-
+// Header//
 	.logo {
 		width: 12%;
 		margin: 0 auto;
@@ -312,19 +312,13 @@ width: 45%;
 		padding: 50px;
 	}
 
-
 	.hero {
 		height: 500px;
 		z-index: 0;
 
 	}
-	.intro {
-		width: 40%;
-		float: left;
-		margin-bottom: 40px;
-		margin-right: 5%;
-	}
 
+// Home-Content//
 iframe {
 	margin-left: 5%;
 	margin-bottom: 150px;
@@ -333,7 +327,17 @@ iframe {
 	margin-left: 40%;
 
 }
+.intro {
+	width: 30%;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 5%;
+}
+header {
+	background-color: #FFA849;
+}
 
+// Footer//
 
 	footer {
     width: 100%;
@@ -390,7 +394,7 @@ iframe {
 	.coffee-two {
 		height: 450px;
 	}
-	
+
 	.drink-wrapper-coffee {
 		width: 100%;
     max-width: 900px;

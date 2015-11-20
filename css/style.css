@@ -66,7 +66,7 @@ table {
   margin: 0 auto; }
 
 .nav-collapse a {
-  color: #FFA849;
+  color: #410000;
   text-decoration: none; }
 
 .js .nav-collapse {
@@ -88,7 +88,7 @@ table {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  color: #FFA849;
+  color: #410000;
   text-align: center;
   padding: 20px 2%;
   display: block;
@@ -109,11 +109,10 @@ table {
     display: none; } }
 @media screen and (min-width: 1000px) {
   .nav-collapse ul {
-    margin-top: 100px;
-    display: inline-block; }
+    margin-top: 80px; }
 
   .nav-collapse li {
-    display: inline-block;
+    float: right;
     margin-right: 20%; } }
 .container {
   width: 100%;
@@ -265,7 +264,6 @@ footer {
 
 iframe {
   display: block;
-  margin: 0 auto;
   margin-top: 10px; }
 
 .hours {
@@ -398,18 +396,21 @@ hr {
     height: 500px;
     z-index: 0; }
 
-  .intro {
-    width: 40%;
-    float: left;
-    margin-bottom: 40px;
-    margin-right: 5%; }
-
   iframe {
     margin-left: 5%;
     margin-bottom: 150px; }
 
   .hours {
     margin-left: 40%; }
+
+  .intro {
+    width: 30%;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 5%; }
+
+  header {
+    background-color: #FFA849; }
 
   footer {
     width: 100%;
