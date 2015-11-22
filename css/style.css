@@ -87,7 +87,8 @@ table {
   color: #410000;
   margin: 0 auto;
   display: block;
-  text-decoration: none; }
+  text-decoration: none;
+  text-align: center; }
 
 .nav-toggle span {
   color: #410000;
