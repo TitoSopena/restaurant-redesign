@@ -21,11 +21,14 @@ body {
 header {
 
 	font-family: $font-header;
+	background-color: #FFA849;
+	padding-bottom: 25px;
 }
 header nav {
 	margin-bottom: 50px;
 	text-transform: uppercase;
 	text-align: center;
+	background-color: #FFA849;
 }
 .header-intro{
 	background: #FFA849;
@@ -113,8 +116,9 @@ footer {
 }
 iframe {
 	display: block;
-	// margin: 0 auto;
+	margin: 0 auto;
 	margin-top: 10px;
+	padding-bottom: 100px;
 }
 .hours {
 	// text-align: center;
